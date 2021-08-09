@@ -1,19 +1,17 @@
 import React from "react";
-import { Counter } from "./_components/Counter";
 
 export { Page };
 
-function Page() {
+function Page({ pokemon }) {
   return (
     <>
-      <h1>Welcome</h1>
-      This page is:
-      <ul>
-        <li>Rendered to HTML.</li>
-        <li>
-          Interactive. <Counter />
-        </li>
-      </ul>
+      <img src={pokemon.sprites.other["official-artwork"].front_default} alt={pokemon.id} />
+      <h1>
+        {pokemon.name} #{pokemon.id}
+      </h1>
+      <a href={`/${+pokemon.id - 1}`}>prev</a>
+      {"    "}
+      <a href={`/${+pokemon.id + 1}`}>next</a>
     </>
   );
 }
