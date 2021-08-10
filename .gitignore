@@ -118,3 +118,5 @@ dist
 .pnp.*
 
 wrangler.toml
+
+worker/worker
