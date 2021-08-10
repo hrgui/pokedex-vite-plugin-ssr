@@ -1410,10 +1410,10 @@ vite-plugin-import-build@^0.1.1:
   resolved "https://registry.yarnpkg.com/vite-plugin-import-build/-/vite-plugin-import-build-0.1.1.tgz#c829b3506b9563538c5fd92043cc95830815f444"
   integrity sha512-u+3axsyogeuYafyJxZCDUgGG7Z3qNxpObfnDUvcit3L3Qt/n9GNvUvP6L7Vr7V9a6GSUKbZxjY9ClfYIS7Rpog==
 
-vite-plugin-ssr@^0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/vite-plugin-ssr/-/vite-plugin-ssr-0.2.5.tgz#0cfe66215650f4e4490c117229df1a04b31f13c0"
-  integrity sha512-hRwgU6CKtMG2k41Vnt0//CZ+QCkQZ3IBiJpkm9qQGIcf9khrKpoxRl6ZRXZmZSpB0jMwiNSaa3A087T+9+czfA==
+vite-plugin-ssr@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/vite-plugin-ssr/-/vite-plugin-ssr-0.2.6.tgz#dd3644b57c5a4d407fac3da1ea56a6c64d0755c7"
+  integrity sha512-tazMy+8MLGQY1HkSJrcBm/ubyjanvRv4Ff2QMkm4Fsbz6r6dyT3575dNSixEvQKpRLiPTF9lefgaZZ3LyDDY9g==
   dependencies:
     "@brillout/json-s" "^0.2.0"
     "@brillout/libassert" "^0.4.2"
